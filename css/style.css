@@ -385,6 +385,11 @@ footer .side-links a {
     main {
         min-height: 65vh;
     }
+
+    header .search input[type="search"] {
+        display: none;
+    }
+
     header nav ul {
         display: none;
     }
