@@ -1,0 +1,95 @@
+@media screen and (max-width: 768px) {
+    main {
+        min-height: 65vh;
+    }
+    header nav ul {
+        display: none;
+    }
+
+    .text-container {
+        margin-top: 50px;
+    }
+
+    .text-container h1 {
+        font-size: 35px;
+    }
+
+    .text-container p {
+        color: #f6f6f6;
+        font-weight: 300;
+        max-width: 400px;
+        line-height: 1.6em;
+        margin: 10px 0 40px 0;
+    }
+
+    /* Box Container */
+
+    .box-container {
+        flex-direction: column;
+    }
+
+    .box-container .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .box h2 {
+        font-size: 1.4em;
+        max-width: 300px;
+    }
+
+    /* Product Container */
+
+    .products {
+        flex-direction: column;
+    }
+
+    .products .product {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Bestsellers */
+
+    .bestsellers {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+    .bestsellers h2 {
+        font-size: 1.5em;
+    }
+
+    /* */ 
+
+    .email-sub {
+        flex-direction: column;
+    }
+    
+    .email-content {
+        margin-bottom: 25px;
+    }
+
+    .email-content h3 {
+        font-size: 1.5em;
+        margin-bottom: 5px;
+    }
+    
+    .email-content p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+    
+    .email-form {
+        width: 100%;
+    }
+
+    /*footer */
+
+    footer ul {
+        display: none;
+    }
+}
